@@ -130,3 +130,19 @@ $mon = new Mon(7,8,9);
 echo $mon->diemtong();
 echo "<br>";
 echo $mon->avg();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//cú pháp
