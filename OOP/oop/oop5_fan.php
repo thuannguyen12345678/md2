@@ -34,10 +34,10 @@ class Fan{
      function toString(){
         if($this->on==TRUE){
             echo "fan is on" ."<br>";
-            return "$this->speed, $this->radius, $this->color";
+            return "Tốc độ : ".$this->speed."    , Bán kính :".$this->radius. "    , Màu :" .$this->color;
         }else{
             echo "fan is off"."<br>";
-            return "$this->speed, $this->radius, $this->color";
+            return "Bán kính :". $this->radius. "   , Màu :" . $this->color;
         }
     } 
     }
